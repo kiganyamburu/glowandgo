@@ -58,9 +58,9 @@ export function Footer() {
               </div>
               <div className="flex justify-between border-b border-[#ecd8d0]/60 pb-1.5">
                 <span>Sunday</span>
-                <span className="font-semibold text-brand-truffle">11:00 AM – 6:00 PM</span>
+                <span className="font-semibold text-brand-truffle">By Appointment</span>
               </div>
-              <div className="flex justify-between pb-1.5">
+              <div className="flex justify-between  pb-1.5">
                 <span>Public Holidays</span>
                 <span className="font-semibold text-brand-primary">By Appointment</span>
               </div>

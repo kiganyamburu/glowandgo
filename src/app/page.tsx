@@ -160,7 +160,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="hover:text-brand-primary underline transition-colors"
                 >
-                  @glowandgo_lashandwax
+                  @glowandgo
                 </a>
               </div>
             </div>

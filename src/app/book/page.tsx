@@ -36,6 +36,17 @@ import confetti from "canvas-confetti";
 import { openWhatsApp } from "@/lib/whatsapp";
 
 
+const ALL_SERVICES: ServiceItem[] = [
+  ...CLUSTER_LASHES,
+  ...INDIVIDUAL_LASHES,
+  ...LASH_REFILLS,
+  ...LASH_ADDONS,
+  ...WAXING_FACIAL,
+  ...WAXING_BODY,
+  ...WAXING_INTIMATE,
+  ...WAXING_COMBOS,
+];
+
 function BookingContent() {
   const searchParams = useSearchParams();
   const initialServiceId = searchParams.get("service");
@@ -69,24 +80,13 @@ function BookingContent() {
     }
   };
 
-  const allServices = [
-    ...CLUSTER_LASHES,
-    ...INDIVIDUAL_LASHES,
-    ...LASH_REFILLS,
-    ...LASH_ADDONS,
-    ...WAXING_FACIAL,
-    ...WAXING_BODY,
-    ...WAXING_INTIMATE,
-    ...WAXING_COMBOS,
-  ];
-
   // Active selected service
   const [selectedService, setSelectedService] = useState<ServiceItem>(CLUSTER_LASHES[0]);
 
   // On initial mount or search param change, auto select requested service
   useEffect(() => {
     if (initialServiceId) {
-      const found = allServices.find((s) => s.id === initialServiceId);
+      const found = ALL_SERVICES.find((s) => s.id === initialServiceId);
       if (found) {
         setSelectedService(found);
         if (found.category === "cluster") setSelectedCategory("cluster");
