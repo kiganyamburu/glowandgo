@@ -73,7 +73,7 @@ export const INSTAGRAM_POSTS = [
     id: "ig-1",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
     client: "@wanjiku_n",
-    caption: "Woke up like this thanks to @glowandgo_lashandwax ✨ D-curl perfection!",
+    caption: "Woke up like this thanks to @glowandgo_lashwaxspa ✨ D-curl perfection!",
     likes: "248",
   },
   {

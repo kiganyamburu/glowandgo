@@ -89,11 +89,10 @@ export default function GalleryPage() {
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`px-4 py-2 rounded-full text-xs sm:text-sm font-semibold whitespace-nowrap transition-all ${
-                activeCategory === cat.id
-                  ? "bg-brand-primary text-white shadow-md shadow-brand-primary/20"
-                  : "bg-white text-brand-plum hover:bg-[#f5ebe6] border border-[#ecd8d0]"
-              }`}
+              className={`px-4 py-2 rounded-full text-xs sm:text-sm font-semibold whitespace-nowrap transition-all ${activeCategory === cat.id
+                ? "bg-brand-primary text-white shadow-md shadow-brand-primary/20"
+                : "bg-white text-brand-plum hover:bg-[#f5ebe6] border border-[#ecd8d0]"
+                }`}
             >
               {cat.label}
             </button>
@@ -292,12 +291,12 @@ export default function GalleryPage() {
           </div>
 
           <a
-            href="https://instagram.com/glowandgo_lashandwax"
+            href="https://instagram.com/glowandgo_lashwaxspa"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-primary hover:underline"
           >
-            <span>Follow @glowandgo_lashandwax</span>
+            <span>Follow @glowandgo_lashwaxspa</span>
             <ExternalLink className="w-3.5 h-3.5" />
           </a>
         </div>

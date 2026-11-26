@@ -88,12 +88,12 @@ export default function ReviewsPage() {
             </h2>
           </div>
           <a
-            href="https://instagram.com/glowandgo_lashandwax"
+            href="https://instagram.com/glowandgo_lashwaxspa"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-brand-primary text-white text-xs font-semibold px-5 py-2.5 rounded-full hover:bg-[#73323f] transition-colors"
           >
-            <span>Follow @glowandgo_lashandwax</span>
+            <span>Follow @glowandgo_lashwaxspa</span>
             <ExternalLink className="w-3.5 h-3.5" />
           </a>
         </div>

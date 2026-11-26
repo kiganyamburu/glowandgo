@@ -631,7 +631,7 @@ Please confirm my booking at Ruaka Commercial Center!`;
               </div>
               <div className="flex items-center gap-2">
                 <Instagram className="w-3.5 h-3.5 text-brand-primary" />
-                <span>Instagram: @glowandgo_lashandwax</span>
+                <span>Instagram: @glowandgo_lashwaxspa</span>
               </div>
             </div>
           </div>
