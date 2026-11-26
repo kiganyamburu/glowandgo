@@ -48,11 +48,10 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-3 py-2 rounded-full text-sm font-medium transition-all ${
-                  isActive
+                className={`px-3 py-2 rounded-full text-sm font-medium transition-all ${isActive
                     ? "bg-[#f5ebe6] text-brand-primary font-semibold shadow-sm"
                     : "text-brand-plum hover:text-brand-primary hover:bg-[#f8f3f0]"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -70,7 +69,7 @@ export function Navbar() {
             <span>Book Appointment</span>
           </Link>
           <div
-            title="Faith M. - Master Lash Artist On Duty"
+            title="Rachel M. - Master Lash Artist On Duty"
             className="relative w-10 h-10 rounded-full border-2 border-brand-secondary overflow-hidden shadow-sm"
           >
             <img
@@ -110,11 +109,10 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className={`flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium transition-colors ${
-                  isActive
+                className={`flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium transition-colors ${isActive
                     ? "bg-[#f5ebe6] text-brand-primary font-semibold"
                     : "text-brand-plum hover:bg-[#f8f3f0]"
-                }`}
+                  }`}
               >
                 <span>{link.label}</span>
                 <ChevronRight className="w-4 h-4 text-brand-subtle" />

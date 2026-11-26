@@ -101,14 +101,14 @@ function BookingContent() {
   // Stylists
   const stylists = [
     {
-      id: "faith",
-      name: "Faith M.",
+      id: "rachel-master",
+      name: "Rachel M.",
       role: "Master Lash Artist",
       desc: "Master Lash Artist",
     },
     {
-      id: "brenda",
-      name: "Brenda K.",
+      id: "rachel-specialist",
+      name: "Rachel M.",
       role: "Volume & Hybrid Specialist",
       desc: "Volume & Hybrid Specialist",
     },
@@ -178,11 +178,10 @@ function BookingContent() {
 • Specialist: ${selectedArtist.name} (${selectedArtist.role})
 • Date: ${bookingDate}
 • Time: ${timeSlot}
-• Client Type: ${
-      clientType === "first-time"
+• Client Type: ${clientType === "first-time"
         ? "First-Time Client (Welcome Consultation Included)"
         : "Returning Client"
-    }
+      }
 ${notes ? `• Special Notes: ${notes}\n` : ""}
 Please confirm my booking at Ruaka Commercial Center!`;
 
@@ -287,11 +286,10 @@ Please confirm my booking at Ruaka Commercial Center!`;
                   <button
                     key={cat.id}
                     onClick={() => handleCategoryChange(cat.id)}
-                    className={`flex flex-col items-center justify-center p-3.5 rounded-xl border text-center transition-all ${
-                      isSelected
-                        ? "bg-brand-primary text-white border-brand-primary shadow-md shadow-brand-primary/20 scale-[1.02]"
-                        : "bg-[#faf3f0] hover:bg-[#f5ebe6] text-brand-plum border-[#ecd8d0]"
-                    }`}
+                    className={`flex flex-col items-center justify-center p-3.5 rounded-xl border text-center transition-all ${isSelected
+                      ? "bg-brand-primary text-white border-brand-primary shadow-md shadow-brand-primary/20 scale-[1.02]"
+                      : "bg-[#faf3f0] hover:bg-[#f5ebe6] text-brand-plum border-[#ecd8d0]"
+                      }`}
                   >
                     <Icon className={`w-5 h-5 mb-1.5 ${isSelected ? "text-white" : "text-brand-primary"}`} />
                     <span className="text-xs font-semibold leading-tight">{cat.label}</span>
@@ -325,19 +323,17 @@ Please confirm my booking at Ruaka Commercial Center!`;
                   <div
                     key={service.id}
                     onClick={() => setSelectedService(service)}
-                    className={`p-3.5 sm:p-4 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-4 ${
-                      isSelected
-                        ? "bg-brand-primary text-white border-brand-primary shadow-md shadow-brand-primary/20"
-                        : "bg-[#faf3f0]/50 hover:bg-[#faf3f0] text-brand-truffle border-[#ecd8d0]"
-                    }`}
+                    className={`p-3.5 sm:p-4 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-4 ${isSelected
+                      ? "bg-brand-primary text-white border-brand-primary shadow-md shadow-brand-primary/20"
+                      : "bg-[#faf3f0]/50 hover:bg-[#faf3f0] text-brand-truffle border-[#ecd8d0]"
+                      }`}
                   >
                     <div className="flex items-start gap-3">
                       <div
-                        className={`w-5 h-5 rounded-full border mt-0.5 flex items-center justify-center flex-shrink-0 ${
-                          isSelected
-                            ? "border-white bg-white/20 text-white"
-                            : "border-[#d8c1c3] bg-white text-transparent"
-                        }`}
+                        className={`w-5 h-5 rounded-full border mt-0.5 flex items-center justify-center flex-shrink-0 ${isSelected
+                          ? "border-white bg-white/20 text-white"
+                          : "border-[#d8c1c3] bg-white text-transparent"
+                          }`}
                       >
                         <Check className="w-3.5 h-3.5" />
                       </div>
@@ -393,11 +389,10 @@ Please confirm my booking at Ruaka Commercial Center!`;
                       key={st.id}
                       type="button"
                       onClick={() => setSelectedArtist(st)}
-                      className={`p-3 rounded-xl border text-left transition-all ${
-                        isSelected
-                          ? "bg-[#faf0ec] border-brand-primary text-brand-truffle ring-1 ring-brand-primary"
-                          : "bg-[#faf3f0] border-[#ecd8d0] text-brand-plum hover:bg-[#f5ebe6]"
-                      }`}
+                      className={`p-3 rounded-xl border text-left transition-all ${isSelected
+                        ? "bg-[#faf0ec] border-brand-primary text-brand-truffle ring-1 ring-brand-primary"
+                        : "bg-[#faf3f0] border-[#ecd8d0] text-brand-plum hover:bg-[#f5ebe6]"
+                        }`}
                     >
                       <div className="font-semibold text-xs text-brand-truffle">{st.name}</div>
                       <div className="text-[11px] text-brand-plum mt-0.5">{st.desc}</div>

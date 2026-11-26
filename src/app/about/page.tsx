@@ -81,7 +81,7 @@ export default function AboutPage() {
             <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-brand-primary flex-shrink-0 shadow-md">
               <img
                 src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
-                alt="Faith M."
+                alt="Rachel M."
                 className="w-full h-full object-cover"
               />
             </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
               <span className="text-[10px] font-bold uppercase tracking-wider text-brand-secondary">
                 Lead Specialist
               </span>
-              <h3 className="font-serif text-xl font-bold text-brand-truffle">Faith M.</h3>
+              <h3 className="font-serif text-xl font-bold text-brand-truffle">Rachel M.</h3>
               <p className="text-xs font-semibold text-brand-primary">Master Lash Artist</p>
               <p className="text-xs text-brand-plum leading-relaxed pt-1">
                 Specializes in Wispy Spikes, Wet Look effects, and custom colored ombre sets. Over
@@ -103,7 +103,7 @@ export default function AboutPage() {
             <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-brand-secondary flex-shrink-0 shadow-md">
               <img
                 src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=300&q=80"
-                alt="Brenda K."
+                alt="Rachel M."
                 className="w-full h-full object-cover"
               />
             </div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
               <span className="text-[10px] font-bold uppercase tracking-wider text-brand-secondary">
                 Technique Lead
               </span>
-              <h3 className="font-serif text-xl font-bold text-brand-truffle">Brenda K.</h3>
+              <h3 className="font-serif text-xl font-bold text-brand-truffle">Rachel M.</h3>
               <p className="text-xs font-semibold text-brand-primary">Volume &amp; Hybrid Specialist</p>
               <p className="text-xs text-brand-plum leading-relaxed pt-1">
                 Expert in Russian volume fan blooming, knotless clusters, and quick painless Brazilian
