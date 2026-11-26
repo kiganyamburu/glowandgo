@@ -155,7 +155,7 @@ export default function HomePage() {
                 </span>
                 <span>•</span>
                 <a
-                  href="https://instagram.com/glowandgo_lashwaxspa"
+                  href="https://www.instagram.com/glowandgo_lashwaxspa/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-primary underline transition-colors"

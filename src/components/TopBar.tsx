@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Clock, Phone, MessageCircle } from "lucide-react";
+import { MapPin, Clock, Phone, MessageCircle, Instagram } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export function TopBar() {
@@ -18,7 +18,17 @@ export function TopBar() {
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4 flex-wrap justify-center">
+          <a
+            href="https://www.instagram.com/glowandgo_lashwaxspa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-brand-plum hover:text-brand-primary transition-colors font-semibold"
+          >
+            <Instagram className="w-3.5 h-3.5 text-brand-primary" />
+            <span>@glowandgo_lashwaxspa</span>
+          </a>
+          <span className="text-brand-border">•</span>
           <a
             href="tel:0748897019"
             className="flex items-center gap-1.5 hover:text-brand-primary transition-colors font-semibold"

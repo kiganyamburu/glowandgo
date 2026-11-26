@@ -114,7 +114,7 @@ export function Footer() {
             <p className="text-xs text-brand-plum">
               Follow our work on Instagram:{" "}
               <a
-                href="https://instagram.com/glowandgo_lashwaxspa"
+                href="https://www.instagram.com/glowandgo_lashwaxspa/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-brand-primary hover:underline"

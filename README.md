@@ -9,7 +9,7 @@
 
 > **A high-converting, luxury web application built for Glow & Go Studio** — Ruaka's premier beauty studio specializing in precision lash artistry, Russian volume fan blooming, knotless cluster sets, and painless intimate & facial waxing.
 
-Located at **Ruaka Commercial Center, Ruaka, Kenya** • Direct WhatsApp: **[+254 748 897 019](https://wa.me/254748897019)** • Instagram: **[@glowandgo_lashwaxspa](https://instagram.com/glowandgo_lashwaxspa)**
+Located at **Ruaka Commercial Center, Ruaka, Kenya** • Direct WhatsApp: **[+254 748 897 019](https://wa.me/254748897019)** • Instagram: **[@glowandgo_lashwaxspa](https://www.instagram.com/glowandgo_lashwaxspa/)**
 
 ---
 
@@ -294,7 +294,7 @@ npm run start -p 3000
 - **Studio Name:** Glow & Go Studio
 - **Location:** Ruaka Commercial Center, Ruaka, Kiambu / Nairobi, Kenya
 - **Telephone / WhatsApp:** [+254 748 897 019](https://wa.me/254748897019)
-- **Instagram:** [@glowandgo_lashwaxspa](https://instagram.com/glowandgo_lashwaxspa)
+- **Instagram:** [@glowandgo_lashwaxspa](https://www.instagram.com/glowandgo_lashwaxspa/)
 - **Operating Hours:**
   - **Monday – Saturday:** 9:00 AM – 7:30 PM
   - **Sunday & Public Holidays:** By Appointment

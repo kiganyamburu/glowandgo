@@ -7,6 +7,9 @@
 export const GLOW_AND_GO_PHONE =
   process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "254748897019";
 
+export const INSTAGRAM_HANDLE = "glowandgo_lashwaxspa";
+export const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;
+
 export function getWhatsAppLink(
   message: string,
   phone: string = GLOW_AND_GO_PHONE

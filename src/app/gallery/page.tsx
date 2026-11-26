@@ -291,7 +291,7 @@ export default function GalleryPage() {
           </div>
 
           <a
-            href="https://instagram.com/glowandgo_lashwaxspa"
+            href="https://www.instagram.com/glowandgo_lashwaxspa/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-primary hover:underline"

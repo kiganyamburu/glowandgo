@@ -158,7 +158,7 @@ export function OfficialFlyerView() {
             </span>
             <span>|</span>
             <a
-              href="https://instagram.com/glowandgo_lashwaxspa"
+              href="https://www.instagram.com/glowandgo_lashwaxspa/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-brand-primary hover:underline"

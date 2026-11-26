@@ -627,11 +627,20 @@ Please confirm my booking at Ruaka Commercial Center!`;
             <div className="space-y-1.5 pt-1 text-brand-plum">
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-brand-primary" />
-                <span>Direct Hotline: 0748897019</span>
+                <a href="tel:0748897019" className="hover:text-brand-primary transition-colors">
+                  Direct Hotline: 0748897019
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Instagram className="w-3.5 h-3.5 text-brand-primary" />
-                <span>Instagram: @glowandgo_lashwaxspa</span>
+                <a
+                  href="https://www.instagram.com/glowandgo_lashwaxspa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-brand-primary hover:underline transition-colors"
+                >
+                  Instagram: @glowandgo_lashwaxspa
+                </a>
               </div>
             </div>
           </div>
